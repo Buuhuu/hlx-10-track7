@@ -1,5 +1,5 @@
 mountpoints:
   /: 
-    url: https://98cc-192-147-117-11.ngrok.io/content/franklin-examples
+    url: https://author-p15404-e139262-cmstg.adobeaemcloud.com/content/franklin-examples
     type: markup
     suffix: ".html"
