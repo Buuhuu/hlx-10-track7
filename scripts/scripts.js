@@ -118,13 +118,6 @@ function loadDelayed() {
 async function loadPage() {
   await loadEager(document);
   await loadLazy(document);
-
-  // TODO: find a better place to do this
-  const script = document.createElement('script');
-  script.src = `${window.hlx.codeBasePath}/scripts/ue-embed.js`;
-  script.async = true;
-  document.head.appendChild(script);
-
   loadDelayed();
 }
 
