@@ -3,7 +3,7 @@ import { createOptimizedPicture } from '../../scripts/lib-franklin.js';
 function copyAttributes(from, to, attributes = ['itemscope', 'itemid', 'itemtype', 'itemprop', 'itemfilter']) {
   attributes.forEach((attribute) => {
     const value = from.getAttribute(attribute);
-    if (value) {
+    if (value || value === "") {
       to.setAttribute(attribute, value);
     }
   });
