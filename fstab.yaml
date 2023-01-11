@@ -1,5 +1,5 @@
 mountpoints:
   /: 
-    url: https://author-p15404-e146221-cmstg.adobeaemcloud.com/content/franklin-examples
+    url: https://author-p15404-e146221-cmstg.adobeaemcloud.com
     type: markup
     suffix: ".html"
