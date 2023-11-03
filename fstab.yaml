@@ -1,5 +1,5 @@
 mountpoints:
   /: 
-    url: https://author-p15404-e139262-cmstg.adobeaemcloud.com/content/franklin-examples
+    url: https://245265-xwalk-cognizantcomstage.adobeioruntime.net/api/v1/web/convert/main
     type: markup
-    suffix: ".html"
+    suffix: ""
